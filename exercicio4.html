@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+
+<body>
+    <script>
+        class Celular {
+            constructor(marca, modelo, armazenamento) {
+                this.marca = marca;
+                this.modelo = modelo;
+                this.armazenamento = armazenamento;
+            }
+            InformacoesCelular(){
+                return(console.log(this.marca, this.modelo,  this.armazenamento)).toFixed(2)
+            }
+        }
+
+        let Celular1 = new Celular("Apple", "Iphone 14", "128g");
+
+        console.log(Celular1);
+       
+</script>
+</body>
+
+</html>
