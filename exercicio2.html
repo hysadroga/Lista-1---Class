@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+
+<body>
+    <script>
+        class Casa {
+            constructor(endereco, numeroquartos, area) {
+                this.endereco = endereco;
+                this.numeroquartos = numeroquartos;
+                this.area = area;
+            }
+            InformacoesCasa(){
+                return(console.log(this.endereco, this.numeroquartos,  this.area)).toFixed(2)
+            }
+        }
+
+        let Casa1 = new Casa("Ciro Alonso, 292", 4, "7m");
+
+        console.log(Casa1);
+       
+</script>
+</body>
+
+</html>
