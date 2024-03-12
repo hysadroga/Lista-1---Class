@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+
+<body>
+    <script>
+        class Filme {
+            constructor(titulo, genero, duracao) {
+                this.titulo = titulo;
+                this.genero = genero;
+                this.duracao = duracao;
+            }
+            InformacoesFilme(){
+                return(console.log(this.titulo, this.genero,  this.duracao)).toFixed(2)
+            }
+        }
+
+        let Filme1 = new Filme("Anjos da noite", "Terror/Ação", "2h 13m");
+
+        console.log(Filme1);
+       
+</script>
+</body>
+
+</html>
